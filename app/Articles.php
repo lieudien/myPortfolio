@@ -15,9 +15,7 @@ class Articles extends Model
 
     protected $dates = ['published_at'];
 
-    protected $guard = [
-    	'id'
-    ];
+
 
     public function setPublishedAtAttribute($date)
     {
