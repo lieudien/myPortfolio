@@ -6,7 +6,6 @@
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 </head>
 <body>
-@include('navigator')
 <div class="container">
 	@yield('content')
 </div>

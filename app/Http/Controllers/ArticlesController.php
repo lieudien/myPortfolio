@@ -18,7 +18,17 @@ class ArticlesController extends Controller
     public function index() 
     {
         $articles = Articles::all();
-    	return view('articles.index', compact('articles'));
+        $loginData = array();
+        if (Auth::user())
+        {
+            $loginData['loginText'] = "Log out";
+            $loginData['url'] = '/auth/logout';
+        } else
+        {
+            $loginData['loginText'] = "Log in";
+            $loginData['url'] = 'auth/login';
+        }
+    	return view('articles.index', compact("articles", "loginData"));
     }
 
     public function show(Articles $article)

@@ -7,6 +7,10 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/">Home</a></li>
                 <li><a href="/articles">Articles</a></li>
+                <li><div class="navbar-btn">
+                        <a href="/auth/register" class="btn btn-primary">Register</a>
+                        <a href="{{ $loginData['url'] }}" class="btn btn-primary">{{ $loginData['loginText'] }}</a>
+                    </div></li>
             </ul>
         </div>
     </div>
