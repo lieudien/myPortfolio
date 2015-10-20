@@ -5,13 +5,20 @@
         </div>
         <div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="/articles">Articles</a></li>
-                <li><div class="navbar-btn">
-                        <a href="/auth/register" class="btn btn-primary">Register</a>
-                        <a href="{{ $loginData['url'] }}" class="btn btn-primary">{{ $loginData['loginText'] }}</a>
-                    </div></li>
+                <li><a href="/">
+                        <span class="glyphicon glyphicon-home"></span>Home
+                    </a>
+                </li>
+                <li class="active"><a href="/articles">
+                        <span class="glyphicon glyphicon-book"></span>Articles
+                    </a>
+                </li>
             </ul>
+            <div class="navbar-btn navbar-right">
+                    <a href="/auth/register" class="btn btn-primary">Register</a>
+                    <a href="{{ $loginData['url'] }}" class="btn btn-primary">{{ $loginData['loginText'] }}</a>
+            </div>
         </div>
+
     </div>
 </nav>

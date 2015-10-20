@@ -2,8 +2,7 @@
 
 @section('content')
 	@include('navigator',['loginData' => $loginData ])
-	<h1>Articles</h1>
-	<a href="articles/create" class="btn btn-default">Create a new article</a>
+	<h1>Articles</h1><a href="articles/create" class="btn btn-default">Create a new article</a>
 	<hr/>
 	@foreach ($articles as $article) 		
 		<article>
