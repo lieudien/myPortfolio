@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b94cc98-7c13-42dc-8e66-66c1ef764ff1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/articles/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/articles/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/navigator.blade.php" afterPath="$PROJECT_DIR$/resources/views/navigator.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myBlog.iws" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="ArticlesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+            <state vertical-scroll-proportion="-11.846154">
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
               <folding>
                 <element signature="e#40#62#0#PHP" expanded="true" />
               </folding>
@@ -48,31 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigator.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/navigator.blade.php">
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51">
-              <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthenticatesUsers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.230769">
-              <caret line="137" column="35" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.7879656">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,7 +86,6 @@
         <option value="$PROJECT_DIR$/resources/views/articles/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/articles/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/CreateArticlesRequest.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/password.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/reset.blade.php" />
@@ -119,11 +99,12 @@
         <option value="$PROJECT_DIR$/app/Articles.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_10_12_143959_create_article_table.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
-        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/navigator.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/articles/index.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
       </list>
     </option>
   </component>
@@ -218,6 +199,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,11 +229,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="storage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,15 +243,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="storage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="articles" />
+              <option name="myItemId" value="framework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,33 +261,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="storage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="framework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="articles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="sessions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -366,47 +323,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Auth" />
+              <option name="myItemId" value="Middleware" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="na&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/navigator.blade.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/index.blade.php&#10;app.&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/app.blade.php&#10;redi&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/app.blade.php&#10;inde&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/index.blade.php&#10;index.bla&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/index.blade.php&#10;routes&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Http/routes.php&#10;auth::&#9;null&#9;null&#10;articles&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Articles.php&#10;arti&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Http/Controllers/ArticlesController.php&#10;pass&#9;null&#9;null&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php&#10;auth&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Http/Controllers/Auth/AuthController.php&#10;vali&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/laravel/framework/src/Illuminate/Validation/Validator.php&#10;REGIS&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/User.php&#10;article&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Http/Controllers/ArticlesController.php&#10;form&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/partials/form.blade.php&#10;name&#9;null&#9;null&#10;art&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Http/Controllers/ArticlesController.php&#10;model&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&#10;create_user&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/database/migrations/2014_10_12_000000_create_users_table.php&#10;create&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/database/migrations/2015_10_12_143959_create_article_table.php&#10;createart&#9;null&#9;null&#10;create.bl&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/create.blade.php&#10;formbui&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/illuminate/html/FormBuilder.php&#10;app.\&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/app.blade.php&#10;validator&#9;null&#9;null&#10;validatearti&#9;null&#9;null&#10;validate&#9;null&#9;null&#10;basecontroller&#9;null&#9;null&#10;database&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/config/database.php&#10;show.&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/show.blade.php&#10;welcom&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/welcome.blade.php&#10;welcomecon&#9;null&#9;null&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Http/routes.php&#10;open&#9;ACTION&#9;OpenFile&#10;create_arti&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/database/migrations/2015_10_12_143959_create_article_table.php&#10;formfa&#9;null&#9;null&#10;app.bla&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/app.blade.php&#10;app.b&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/app.blade.php&#10;.css&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/css/bootstrap.min.css&#10;lastest&#9;null&#9;null&#10;autoload&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/bootstrap/autoload.php&#10;articlesControlll&#9;null&#9;null&#10;article_index&#9;null&#9;null&#10;routes.php&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="inde&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/index.blade.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/app.blade.php&#10;s&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/symfony/http-foundation/Session/Session.php&#10;sess&#9;null&#9;null&#10;session&#9;null&#9;null&#10;eloquent&#9;null&#9;null&#10;model&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php&#10;article&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Articles.php&#10;store.php&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/symfony/http-kernel/HttpCache/Store.php&#10;app.b&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/app.blade.php&#10;list&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/errors/list.blade.php&#10;edit&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/edit.blade.php&#10;na&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/navigator.blade.php&#10;index&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/index.blade.php&#10;app.&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/app.blade.php&#10;redi&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php&#10;index.bla&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/index.blade.php&#10;routes&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Http/routes.php&#10;auth::&#9;null&#9;null&#10;articles&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Articles.php&#10;arti&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Http/Controllers/ArticlesController.php&#10;pass&#9;null&#9;null&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php&#10;auth&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Http/Controllers/Auth/AuthController.php&#10;vali&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/laravel/framework/src/Illuminate/Validation/Validator.php&#10;REGIS&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/User.php&#10;form&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/partials/form.blade.php&#10;name&#9;null&#9;null&#10;art&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Http/Controllers/ArticlesController.php&#10;create_user&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/database/migrations/2014_10_12_000000_create_users_table.php&#10;create&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/database/migrations/2015_10_12_143959_create_article_table.php&#10;createart&#9;null&#9;null&#10;create.bl&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/create.blade.php&#10;formbui&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/illuminate/html/FormBuilder.php&#10;app.\&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/app.blade.php&#10;validator&#9;null&#9;null&#10;validatearti&#9;null&#9;null&#10;validate&#9;null&#9;null&#10;basecontroller&#9;null&#9;null&#10;database&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/config/database.php&#10;show.&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/articles/show.blade.php&#10;welcom&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/welcome.blade.php&#10;welcomecon&#9;null&#9;null&#10;route&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/app/Http/routes.php&#10;open&#9;ACTION&#9;OpenFile&#10;create_arti&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/database/migrations/2015_10_12_143959_create_article_table.php&#10;formfa&#9;null&#9;null&#10;app.bla&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/resources/views/app.blade.php&#10;.css&#9;FILE&#9;file://C:/xampp/htdocs/myBlog/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/css/bootstrap.min.css" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -454,7 +383,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2186" height="1386" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2935185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -496,87 +425,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.793011">
-          <caret line="745" column="53" selection-start-line="745" selection-start-column="53" selection-end-line="745" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028972784">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55048287">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/articles/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#52#80#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57272726">
-          <caret line="187" column="12" selection-start-line="187" selection-start-column="12" selection-end-line="187" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/errors/list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ArticlesRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/html/FormBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23777565">
-          <caret line="143" column="30" selection-start-line="143" selection-start-column="30" selection-end-line="143" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -588,16 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8">
-          <caret line="939" column="28" selection-start-line="939" selection-start-column="28" selection-end-line="939" selection-end-column="28" />
-          <folding>
-            <element signature="e#48#61#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,21 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Articles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.14">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.180909">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.76545453">
@@ -794,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/articles/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/articles/partials/form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48">
@@ -823,37 +639,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
-          <folding>
-            <element signature="e#40#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/articles/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.230769">
+        <state vertical-scroll-proportion="0.31">
           <caret line="137" column="35" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/navigator.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/errors/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/app.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Capsule/Manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.75">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-kernel/HttpCache/Store.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36727273">
+          <caret line="147" column="51" selection-start-line="147" selection-start-column="46" selection-end-line="147" selection-end-column="51" />
+          <folding>
+            <element signature="e#7#358#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="38" />
+          <folding>
+            <element signature="e#48#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.05">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/framework/sessions/3487e28c44fcfcc80f072c0525cba5d75ec8c96b">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.69">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.8130393">
+          <caret line="220" column="36" selection-start-line="220" selection-start-column="36" selection-end-line="220" selection-end-column="36" />
+          <folding>
+            <element signature="e#291#368#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.846154">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -865,10 +806,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/navigator.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.7879656">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>

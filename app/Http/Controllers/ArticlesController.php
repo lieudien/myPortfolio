@@ -9,6 +9,7 @@ use App\Http\Requests\ArticlesRequest;
 use Carbon\Carbon;
 use Request;
 use Illuminate\Support\Facades\Auth;
+
 class ArticlesController extends Controller
 {
     public function __construct()
@@ -17,7 +18,7 @@ class ArticlesController extends Controller
     }
     public function index() 
     {
-        $articles = Articles::all();
+        $articles = Articles::latest()->get();
         $loginData = array();
         if (Auth::user())
         {
@@ -51,14 +52,16 @@ class ArticlesController extends Controller
      */
     public function store(ArticlesRequest $request)
     {
-        $article = new Articles($request->all());
-        Auth::user()->articles()->save($article);
+        Auth::user()->articles()->create($request->all());
 
+        \Session::flash('flash_message', 'Your article is successfully created.');
         return redirect('articles');
     }
 
     public function edit(Articles $article)
     {
+        if (Auth::user()->id != $article->user_id)
+            return response('Unauthorized', 401);
         return view('articles.edit', compact('article'));
     }
 
