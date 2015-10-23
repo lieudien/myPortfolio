@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/all.css">
 </head>
 <body>
 <div class="container">
@@ -11,11 +11,8 @@
 	@yield('content')
 </div>
 
+<script src="/js/all.js"></script>
 @yield('footer')
-
-<script src="//code.jquery.com/jquery-2.1.4.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
 <script>
 	$('div.alert').delay(3000).slideUp(300);
 	$("#flash-overlay-modal").modal();

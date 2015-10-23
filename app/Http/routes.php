@@ -21,4 +21,4 @@ Route::controllers([
     'password' => 'Auth\PasswordController'
 ]);
 
-Route::model('articles', 'App\Articles');
+Route::model('articles', 'App\Article');

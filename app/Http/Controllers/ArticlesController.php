@@ -4,21 +4,31 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Articles;
+use App\Article;
 use App\Http\Requests\ArticlesRequest;
+use App\Tag;
 use Carbon\Carbon;
 use Request;
 use Illuminate\Support\Facades\Auth;
 
 class ArticlesController extends Controller
 {
+    /**
+     * Construct an article controller instance.
+     */
     public function __construct()
     {
         $this->middleware('auth',['except' => ['index', 'show']]);
     }
-    public function index() 
+
+    /**
+     * Show the home page.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function index()
     {
-        $articles = Articles::latest()->get();
+        $articles = Article::latest('published_at')->published()->get();
         $loginData = array();
         if (Auth::user())
         {
@@ -32,43 +42,82 @@ class ArticlesController extends Controller
     	return view('articles.index', compact("articles", "loginData"));
     }
 
-    public function show(Articles $article)
+    /**
+     * Show the article details.
+     *
+     * @param Article $article
+     * @return \Illuminate\View\View
+     */
+    public function show(Article $article)
     {
     	return view('articles.show', compact('article'));
     }
 
     /**
-     * Return create view
+     * Show the create article view.
+     *
      * @return \Illuminate\View\View
      */
     public function create()
     {
-        return view('articles.create');
+        $tags = Tag::lists('name','id');
+        return view('articles.create', compact('tags'));
     }
 
     /**
+     * Save the article.
+     *
      * @param ArticlesRequest $request
      * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
     public function store(ArticlesRequest $request)
     {
-        Auth::user()->articles()->create($request->all());
-
+        $this->createArticle($request);
         flash()->success("Your articles is successfully created!");
+
         return redirect('articles');
     }
 
-    public function edit(Articles $article)
+    /**
+     * Edit article from the authorized user.
+     *
+     * @param Article $article
+     * @return \Illuminate\Contracts\Routing\ResponseFactory|\Illuminate\View\View|\Symfony\Component\HttpFoundation\Response
+     */
+    public function edit(Article $article)
     {
         if (Auth::user()->id != $article->user_id)
             return response('Unauthorized', 401);
-        return view('articles.edit', compact('article'));
+        $tags = Tag::lists('name','id');
+        return view('articles.edit', compact('article','tags'));
     }
 
-    public function update(Articles $article, ArticlesRequest $request)
+    /**
+     * Post request to update the article.
+     *
+     * @param Article $article
+     * @param ArticlesRequest $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
+    public function update(Article $article, ArticlesRequest $request)
     {
         $article->update($request->all());
+        $this->syncTags($article, $request->input('tag_list'));
         flash()->success("Your articles is successfully edited", "Thank you");
         return redirect('articles');
+    }
+
+    private function syncTags(Article $article, array $tag_list)
+    {
+        $article->tags()->sync($tag_list);
+    }
+
+    private function createArticle(ArticlesRequest $request)
+    {
+        $article = Auth::user()->articles()->create($request->all());
+
+        $this->syncTags($article, $request->input('tag_list'));
+
+        return $article;
     }
 }
