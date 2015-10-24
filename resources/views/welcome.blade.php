@@ -4,6 +4,7 @@
         <title>Laravel</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <link href="/css/all.css" rel="stylesheet">
         <style>
             html, body {
                 height: 100%;
@@ -38,6 +39,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">Welcome to my first blog</div>
+                <a href="/articles" class="btn btn-primary">Visit page</a>
             </div>
         </div>
     </body>

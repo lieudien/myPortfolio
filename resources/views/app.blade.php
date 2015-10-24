@@ -7,6 +7,7 @@
 </head>
 <body>
 <div class="container">
+	@include('partials.navigator')
 	@include('flash::message')
 	@yield('content')
 </div>

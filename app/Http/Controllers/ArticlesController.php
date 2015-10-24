@@ -29,16 +29,7 @@ class ArticlesController extends Controller
     public function index()
     {
         $articles = Article::latest('published_at')->published()->get();
-        $loginData = array();
-        if (Auth::user())
-        {
-            $loginData['loginText'] = "Log out";
-            $loginData['url'] = '/auth/logout';
-        } else
-        {
-            $loginData['loginText'] = "Log in";
-            $loginData['url'] = 'auth/login';
-        }
+
     	return view('articles.index', compact("articles", "loginData"));
     }
 
