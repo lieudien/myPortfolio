@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a9a7e22f64439c745b030aa42bee1ffe",
-    "content-hash": "5bebdfef15c2a7c81c82caf726739a72",
+    "hash": "43ee5bc0cf5565dce87cbd07e247d2da",
+    "content-hash": "5c8aadb5477bbef0a18b588913098ce8",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1784,7 +1784,7 @@
             "time": "2015-09-22 14:41:01"
         },
         {
-            "name": "twitter/bootstrap",
+            "name": "twbs/bootstrap",
             "version": "v3.3.5",
             "source": {
                 "type": "git",
