@@ -36,6 +36,17 @@ class Article extends Model
     }
 
     /**
+     * Get the published_at attribute.
+     *
+     * @param $date
+     * @return string
+     */
+    public function getPublishedAtAttribute($date)
+    {
+        return Carbon::parse($date)->format('Y-m-d');
+    }
+
+    /**
      * Published article scope.
      *
      * @param $query

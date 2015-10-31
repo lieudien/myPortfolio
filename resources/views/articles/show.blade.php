@@ -3,7 +3,7 @@
 @section('content')
 	<h1>{{ $article->name }}</h1>
 	<div class="body"> <h2>{{ $article->body }}</h2></div>
-	<div class="body"> <h3>{{ $article->published_at->diffForHumans()}}</h3></div>
+	<div class="body"> <h3>{{ $article->published_at }}</h3></div>
 
 	@unless($article->tags->isEmpty())
 		<h5>Tags</h5>
